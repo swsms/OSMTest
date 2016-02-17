@@ -62,8 +62,6 @@ public class Main {
     public static void main(String[] args)
             throws IOException, SAXException, ParserConfigurationException {
 
-        Attraction att = new Attraction("Asad", new Address());
-
         List<OSMWay> osmWayList =
                 OSMWrapper.getOSMWaysInArea(56.2341, 58.0154, 56.2545, 58.0215);
 
